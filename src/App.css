@@ -82,10 +82,9 @@ input{
   background-color: #F2FAFF;
   height: 100%;
 }
-.map{
-  height: 100%;
-  width: 50%;
-}
+
+
+
 @media (prefers-reduced-motion: no-preference) {
  
 }

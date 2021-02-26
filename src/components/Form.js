@@ -1,5 +1,5 @@
 import React,{useState,useEffect} from 'react'
-
+import Maps from "./Maps";
 const Form = (props) => {
     const [button,setButton]=useState(true)
  const [inp, setInp] = useState({
@@ -64,6 +64,7 @@ const Form = (props) => {
             </button>
           )}
         </form>
+        <Maps />
       </div>
     );
 }
